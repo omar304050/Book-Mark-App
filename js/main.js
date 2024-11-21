@@ -63,7 +63,7 @@ function disPlay() {
     temp += `<tr>
             <td>${i}</td>
             <td>${websitelist[i].Name}</td>
-            <td> <a href="https://${websitelist[i].url}" class="text-decoration-none text-white btn btn-primary"><i class="fa-solid fa-eye me-1"></i>Visit</a></td>
+            <td> <a href="https://${websitelist[i].url}" target="_blank" class="text-decoration-none text-white btn btn-primary"><i class="fa-solid fa-eye me-1"></i>Visit</a></td>
             <td> <button class="btn bg-danger text-white" onclick="deleteWebsite(${i})"> <i class="fa-solid fa-trash-can me-1"></i>Delete</button></td>
           </tr>`;
   }
@@ -96,8 +96,11 @@ errorEl.addEventListener("click", function (e) {
     errorEl.classList.replace("d-flex", "d-none");
   }
 });
-
-
+document.addEventListener("keydown" , function(e){
+if(e.key === "Escape"){
+  close()
+}
+})
 
 urlInput.addEventListener("focus" , function(){
   urlInput.classList.remove("is-valid")

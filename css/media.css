@@ -1,0 +1,33 @@
+@media (min-width: 576px) {
+    .firsttr td {
+        font-size: 10px;
+    }
+  }
+
+
+@media (min-width: 768px) { 
+    .firsttr td {
+        font-size: 14px;
+    }
+ }
+
+
+@media (min-width: 992px) {
+    .firsttr td {
+        font-size: 16px;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+    .firsttr td {
+        font-size: 18px;
+    }
+ }
+
+
+@media (min-width: 1400px) { 
+    .firsttr td {
+        font-size: 20px;
+    }
+ }

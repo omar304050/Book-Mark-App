@@ -11,25 +11,28 @@
   <link rel="stylesheet" href="css/all.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/media.css">
 
 
 </head>
 
 <body>
-  <div id="error"  class=" d-none justify-content-center  align-items-center position-absolute top-0 bottom-0 end-0 start-0 z-3 ">
+  <div id="error"  class=" d-none justify-content-center  align-items-center position-absolute top-0 bottom-0 end-0 start-0 z-3  ">
     <div id="errorInner" class="text-center rounded rounded-4 position-relative ">
       <i  id="closeEl" class="fa-regular fa-circle-xmark position-absolute end-0 m-2  "></i>
-      <h1 class="text-white mt-5 p-3">Wrong Text</h1>
-      <h4 class="text-white">Wong Valid</h4>
+      <h5 class="text-white mt-5 p-3   ">Wrong Name : Must Contain 5 letters</h5>
+      <h5 class="text-white mt-2 p-1   ">Or</h5>
+      <h5 class="text-white">Wong Url : Site URL Must Be A valid One  </h5>
     </div>
   </div>
-  <div class="container p-5 position-relative  mt-5">
+  <div class="container  p-5 position-relative  mt-5" >
   
     <div class=" item p-5 d-flex justify-content-center align-items-center position-relative  w-25 mx-auto">
       <div class="bg-warning back  position-absolute"></div>
       <h1 class="position-relative z-2">Bookmarker</h1>
     </div>
  <hr>
+
  
       <h4 class="text-center "> <i class="fa-solid fa-bookmark m-1"></i>Bookmark your favorite sites <i class="fa-solid fa-bookmark m1"></i></h4>
     
@@ -38,10 +41,10 @@
         <label for="bookMarkInput" class=" fw-bold"><i class="fa-solid fa-rectangle-ad"></i> Site Name</label>
         <input type="text" class="form-control" name="" id="bookMarkInput" placeholder ="Bookmark Name">
         <label for="urlInput" class=" fw-bold mt-4"><i class="fa-solid fa-link"></i> Site URL</label>
-        <input type="text" class="form-control " name="" id="urlInput" placeholder="WWW.Example.Com">
+        <input type="text" class="form-control " name="" id="urlInput" placeholder="www.example.com">
   
         <div class="text-center mt-4">
-          <button onclick="addWebsite()" id="submitBtn" class="bg-danger btn rounded px-5 text-white" type="button"  >Submit</button>
+          <button onclick="addWebsite()" id="submitBtn" class="bg-danger btn rounded px-md-5 text-white" type="button"  >Submit</button>
         </div>
       </form>
 
@@ -50,7 +53,7 @@
       <div>
         <table  class="table  text-center">
       <thead>
-        <tr>
+        <tr class="firsttr">
           <td class="fw-bold">index</td>
           <td class="fw-bold">Website Name</td>
           <td class="fw-bold">Visit</td>
