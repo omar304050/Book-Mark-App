@@ -52,3 +52,10 @@ body {
 .firsttr td {
     font-size: 10px;
 }
+
+.table tr td button{
+    font-size: 9px;
+}
+.table tr td a{
+    font-size: 9px;
+}
