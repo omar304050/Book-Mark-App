@@ -1,0 +1,45 @@
+body{
+    background-color: antiquewhite;
+    
+}
+
+.item h1 {
+    font-family: cursive;
+}
+
+.item .back {
+    height: 15px;
+    width: 300px;
+    transition: all 0.5s;
+    bottom: 55px;
+}
+
+.item:hover .back{
+    height: 30px;
+}
+
+.container h4 {
+    background-image: linear-gradient(90deg, green , antiquewhite);
+    background-clip: text;
+    color: transparent;
+}
+
+
+
+#error{
+  
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+#errorInner{
+    width: 35%;
+    height: 35%;
+    background-color: brown;
+}
+
+.fa-regular{
+    cursor: pointer;
+}
