@@ -64,7 +64,7 @@ function disPlay() {
             <td>${i}</td>
             <td>${websitelist[i].Name}</td>
             <td> <a href="https://${websitelist[i].url}" target="_blank" class="text-decoration-none text-white btn btn-primary"><i class="fa-solid fa-eye me-1"></i>Visit</a></td>
-            <td> <button class="btn bg-danger text-white" onclick="deleteWebsite(${i})"> <i class="fa-solid fa-trash-can me-1"></i>Delete</button></td>
+            <td > <button class="btn bg-danger text-white" onclick="deleteWebsite(${i})"> <i class="fa-solid fa-trash-can me-1"></i>Delete</button></td>
           </tr>`;
   }
   document.getElementById("tableBody").innerHTML = temp;

@@ -2,6 +2,13 @@
     .firsttr td {
         font-size: 10px;
     }
+    #errorInner {
+        width: 50%;
+      
+    }
+    #errorInner h5 {
+        font-size: 10px;
+    }
   }
 
 
@@ -9,12 +16,23 @@
     .firsttr td {
         font-size: 14px;
     }
+    #errorInner {
+        width: 35%;
+      
+    }
+    #errorInner h5 {
+        font-size: 15px;
+    }
+  }
  }
 
 
 @media (min-width: 992px) {
     .firsttr td {
         font-size: 16px;
+    }
+    #errorInner h5 {
+        font-size: 17px;
     }
  }
 
@@ -23,6 +41,10 @@
     .firsttr td {
         font-size: 18px;
     }
+    #errorInner h5 {
+        font-size: 20px;
+    }
+ }
  }
 
 

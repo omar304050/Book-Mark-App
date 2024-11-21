@@ -35,10 +35,14 @@ body {
 
 
 #errorInner {
-    width: 35%;
+    width: 50%;
     height: 35%;
     background-color: brown;
 }
+#errorInner h5 {
+    font-size: 10px;
+}
+
 
 .fa-regular {
     cursor: pointer;
